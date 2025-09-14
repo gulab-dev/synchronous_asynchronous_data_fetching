@@ -18,7 +18,7 @@ class WeatherComparisonApp:
         self.root.geometry("1200x600")
         
         # Configuration
-        self.API_KEY = "09e8d91f67b55d144924ef2e64e6d593"  # Replace with your OpenWeatherMap API key
+        self.API_KEY = "Your API Key"  # Replace with your OpenWeatherMap API key
         self.WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
         self.DEFAULT_CITIES = ["London", "Paris", "Tokyo", "New York", "Sydney"]
         
@@ -778,4 +778,5 @@ class WeatherComparisonApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = WeatherComparisonApp(root)
+
     root.mainloop()
